@@ -1,0 +1,24 @@
+{
+  "name": "sentrytoslack",
+  "version": "1.0.0",
+  "description": "Sentry to Slack Alert Customization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnson-Dsouza/SentryToSlack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johnson-Dsouza/SentryToSlack/issues"
+  },
+  "homepage": "https://github.com/Johnson-Dsouza/SentryToSlack#readme",
+  "dependencies": {
+    "@sentry/node": "^7.23.0",
+    "crypto": "^1.0.1",
+    "node-fetch": "^3.3.0"
+  }
+}

@@ -1,0 +1,25 @@
+service: myservice
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: ap-south-1
+       
+
+functions:
+  sentryHandler:
+    handler: index.main
+    environment:
+      SLACK_TOKEN_SECRET: <----- Bot User OAuth Token from slack 
+      SLACK_API_URL: <----- chat.postMessage endpoint from slack 
+      DEBUG: true
+      SENTRY_SECRET: <----- Client Secret from Internal Integration
+      SENTRY_DSN: <------ public Data Source Name(DSN) 
+    events:
+      - http:
+          path: main
+          method: POST
+          cors: true
+          
