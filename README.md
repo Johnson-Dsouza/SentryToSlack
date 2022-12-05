@@ -20,7 +20,10 @@ $ git clone https://github.com/Johnson-Dsouza/SentryToSlack.git
 1. To Install all the dependencies with:
 ```sh
 cd SentryToSlack
-npm install
+npm init -y
+npm i crypto
+npm install node-fetch
+npm install @sentry/node
 ```
 
 ## Create a Service for the Sentry Webhook
