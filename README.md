@@ -21,7 +21,7 @@ $ git clone https://github.com/Johnson-Dsouza/SentryToSlack.git
 ```sh
 cd SentryToSlack
 npm init -y
-npm i crypto
+npm install crypto
 npm install node-fetch
 npm install @sentry/node
 ```
