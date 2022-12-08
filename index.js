@@ -28,7 +28,7 @@ const LEVEL_TO_COLOUR = {
   'warning': '#ffa07a' //LightSalmon
 };
 
-const DEFAULT_CHANNEL = 'channel-name';
+const DEFAULT_CHANNEL = 'channel-name'; //<--------- Change channel-name
 
 const EVENT_TAGS = ['environment', 'level'];
 
