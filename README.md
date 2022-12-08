@@ -55,7 +55,7 @@ const DEFAULT_CHANNEL = 'channel-name';
 	After successfully deploying, will get endpoint:
 	
 	```
-	https://url_from_serverless/test
+	https://url_from_serverless
 	```
 
 ## Configure Slack to Receive the Notification
