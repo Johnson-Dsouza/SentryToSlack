@@ -13,7 +13,7 @@ To make this a reality we needed to:
 
 ## Installation
 #### Running Locally
-1. Create a clone of the Gather-bot repository on your local machine.
+1. Create a clone of the SentryToSlack repository on your local machine.
 ```
 $ git clone https://github.com/Johnson-Dsouza/SentryToSlack.git
 ```
